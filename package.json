@@ -1,0 +1,36 @@
+{
+  "name": "nex-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf lib/* es/*",
+    "build:cjs": "node build/index",
+    "build:es": "babel --no-babelrc src -d es",
+    "build": "npm-run-all clean build:cjs build:es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplok20010/nex-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bplok20010/nex-utils/issues"
+  },
+  "homepage": "https://github.com/bplok20010/nex-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "json-stringify-pretty-compact": "^1.1.0",
+    "lodash": "^4.17.4"
+  }
+}

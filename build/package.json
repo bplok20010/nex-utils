@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "nobo",
+    "email": "nobo.zhou@idreamsky.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bplok20010/nex-utils/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "nex utils",
+  "homepage": "https://github.com/bplok20010/nex-utils",
+  "icon": "",
+  "keywords": [
+    "modules",
+    "javascript",
+	"stdlib",
+    "util"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nex-utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplok20010/nex-utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.0"
+}
