@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/bplok20010/nex-utils.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "nobo<nobo.zhou@foxmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bplok20010/nex-utils/issues"
   },

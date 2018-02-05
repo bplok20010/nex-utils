@@ -1,7 +1,7 @@
 {
   "author": {
     "name": "nobo",
-    "email": "nobo.zhou@idreamsky.com"
+    "email": "nobo.zhou@<nobo.zhou@foxmail.com>"
   },
   "bugs": {
     "url": "https://github.com/bplok20010/nex-utils/issues"
@@ -27,5 +27,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
